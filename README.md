@@ -50,9 +50,8 @@ Pretty much everything.
 
 ### What’s not working
 
-- Thunderbolt 3
-
-It’s not working as USB-C as well, thus it could be that the damn thing is broken on my motherboard. Will investigate when I get to it.
+- Sidecar
+- Thunderbolt 3. The damn port is not working as USB-C as well thus it could be that is broken on my motherboard. Will investigate when I get to it.
 
 ## Notes
 
