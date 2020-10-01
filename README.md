@@ -31,6 +31,7 @@ This switch is fully compatible with Bluetooth capability in ASRock BIOS thus yo
 1. [Update `PlatformInfo/Generic` stuff](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) with your own, inside `config.plist`
 2. Use your Ethernet’s MAC address for `ROM` value, as explained in the Dortania guide. Don’t leave it as all 0s.
 3. Update value of `brcmfx-country` argument in `NVRAM/7C436110-AB2A-4BBB-A880-FE41995C9F82/boot-args` with your country code. Should be identical or compatible with what your WiFi router is broadcasting. (Remove the parameter if you don’t know what I’m talking about here.)
+4. Turn off Power Nap in Energy Saver.
 
 Important: Add `-v` boot-args parameter to get verbose boot process, it greatly simplifies troubleshooting.
 
@@ -51,7 +52,7 @@ Pretty much everything.
 ### What’s not working
 
 - Sidecar
-- Thunderbolt 3. The damn port is not working as USB-C as well thus it could be that is broken on my motherboard. Will investigate when I get to it.
+- Thunderbolt 3
 
 ## Notes
 
