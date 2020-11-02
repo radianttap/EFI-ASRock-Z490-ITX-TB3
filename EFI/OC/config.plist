@@ -56,22 +56,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Thunderbolt 3 hot-plug</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-TB3HP.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Thunderbolt 3 System Report Display Patch</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-DTPG.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>RX 5500 XT performance</string>
 				<key>Enabled</key>
 				<true/>
