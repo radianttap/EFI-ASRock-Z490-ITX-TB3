@@ -1,6 +1,6 @@
 # EFI-ASRock-Z490-ITX-TB3-iMacPro1-1
 
-OpenCore v0.6.2
+OpenCore v0.6.3
 
 ## Hardware
 
