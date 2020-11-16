@@ -74,17 +74,17 @@
 				<key>Comment</key>
 				<string>DTPG</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-DTPG.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>ASRock-Z490-TB3HP</string>
+				<string>Thunderbolt 3 hot-plug</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
-				<string>SSDT-ASRock-Z490-TB3HP.aml</string>
+				<string>SSDT-TB3-ASRock-Z490-ITX-ac.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
