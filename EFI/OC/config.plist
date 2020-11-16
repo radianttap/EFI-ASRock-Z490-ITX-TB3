@@ -74,7 +74,7 @@
 				<key>Comment</key>
 				<string>DTPG</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-DTPG.aml</string>
 			</dict>
@@ -82,7 +82,7 @@
 				<key>Comment</key>
 				<string>ASRock-Z490-TB3HP</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-ASRock-Z490-TB3HP.aml</string>
 			</dict>
@@ -524,6 +524,22 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>DebugEnhancer.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/DebugEnhancer</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -639,7 +655,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -722,7 +738,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>agdpmod=pikera brcmfx-driver=2 brcmfx-country=RS</string>
+				<string>-v keepsyms=1 debug=0x100 acpi_layer=0x8 acpi_level=0x2 agdpmod=pikera brcmfx-driver=2 brcmfx-country=RS</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
@@ -835,7 +851,6 @@
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>HfsPlus.efi</string>
-			<string>TbtForcePower.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
