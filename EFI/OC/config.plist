@@ -72,11 +72,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DTPG</string>
+				<string>DTGP method, used by TB3.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-DTPG.aml</string>
+				<string>SSDT-DTGP.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
