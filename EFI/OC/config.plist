@@ -60,7 +60,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-RX 5500 XT.aml</string>
+				<string>SSDT-RX-5500-XT.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -237,8 +237,12 @@
 	<dict>
 		<key>MmioWhitelist</key>
 		<array/>
+		<key>Patch</key>
+		<array/>
 		<key>Quirks</key>
 		<dict>
+			<key>AllowRelocationBlock</key>
+			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -297,7 +301,7 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				AwDImw==
+				CQClPg==
 				</data>
 				<key>device-id</key>
 				<data>
@@ -404,9 +408,9 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string></string>
+				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBMap-NCASE-M1ASRock-Z490-Phantom-Gaming-ITX-TB3-iMacPro1,1.kext</string>
+				<string>USBMap-NCASE-M1ASRock-Z490-Phantom-Gaming-ITX-TB3-iMacPro1.1.kext</string>
 				<key>Comment</key>
 				<string>USB map with NCASE M1 USB-A ports</string>
 				<key>Enabled</key>
@@ -597,6 +601,8 @@
 			<false/>
 			<key>PickerMode</key>
 			<string>External</string>
+			<key>PickerVariant</key>
+			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -637,6 +643,8 @@
 			<integer>0</integer>
 			<key>AuthRestart</key>
 			<false/>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
 			<key>DmgLoading</key>
@@ -675,6 +683,10 @@
 				<string>UEFI Shell</string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -808,7 +820,9 @@
 			<key>MinimumVolume</key>
 			<integer>20</integer>
 			<key>PlayChime</key>
-			<false/>
+			<string>Disabled</string>
+			<key>SetupDelay</key>
+			<integer>0</integer>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
@@ -909,14 +923,12 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>DeduplicateBootOrder</key>
-			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>
-			<false/>
+			<true/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>TscSyncTimeout</key>
