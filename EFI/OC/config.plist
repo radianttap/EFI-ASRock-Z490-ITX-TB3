@@ -70,6 +70,22 @@
 				<key>Path</key>
 				<string>SSDT-USBW.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>DTGP method, used by TB3.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-DTGP.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Thunderbolt 3 hot-plug</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-TB3-ASRock-Z490-ITX-ac.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -497,6 +513,8 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>USBWakeFixup.kext</string>
 				<key>Comment</key>
@@ -505,6 +523,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBWakeFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>DebugEnhancer.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/DebugEnhancer</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -718,7 +754,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>agdpmod=pikera brcmfx-driver=2 brcmfx-country=RS</string>
+				<string>keepsyms=1 debug=0x100 acpi_layer=0x8 acpi_level=0x2 agdpmod=pikera brcmfx-driver=2 brcmfx-country=RS</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
@@ -833,6 +869,7 @@
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>HfsPlus.efi</string>
+			<string>TbtForcePower.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
