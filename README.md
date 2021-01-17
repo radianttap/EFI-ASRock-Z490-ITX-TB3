@@ -1,6 +1,6 @@
 # EFI-ASRock-Z490-ITX-TB3-iMacPro1-1
 
-OpenCore v0.6.3
+OpenCore v0.6.5
 
 ## Hardware
 
@@ -48,11 +48,11 @@ Pretty much everything.
 - Watch unlock, Handoff, iMessage, iCloud, Keychain, Xcode etc.
 - System Integrity Protection (SIP) fully enabled.
 - Sleep / wake
+- Thunderbolt 3
 
 ### What’s not working
 
 - Sidecar
-- Thunderbolt 3
 
 ## Notes
 
