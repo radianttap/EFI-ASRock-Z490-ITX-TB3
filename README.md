@@ -1,6 +1,6 @@
 # EFI-ASRock-Z490-ITX-TB3-iMacPro1-1
 
-OpenCore v0.6.5
+OpenCore v0.7.0. Big Sur 11.4.
 
 ## Hardware
 
@@ -25,6 +25,10 @@ Combined with this riser cable, the card/adapter combo from above can be moved o
 - Mini [PCIe riser with adapter](https://www.aliexpress.com/item/BCM94360CD-BCM94360CS2-BCM943224PCIEBT2-Card-To-M-2-Key-A-E-Cable-For-Mac-OS-and-and/4000286967003.html) for M.2 Key A/E
 
 This switch is fully compatible with Bluetooth capability in ASRock BIOS thus you can use Bluetooth keyboard for F2, F11 etc.
+
+### BIOS
+
+Version 1.40
 
 ## Usage
 
