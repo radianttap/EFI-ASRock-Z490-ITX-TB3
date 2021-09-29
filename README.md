@@ -1,6 +1,8 @@
-# EFI-ASRock-Z490-ITX-TB3-iMacPro1-1
+# EFI-ASRock-Z490-ITX-TB3
 
-OpenCore v0.7.3. Big Sur 11.5.2.
+- OpenCore v0.7.3. 
+- Big Sur 11.5.2.
+- iMac20,1
 
 ## Hardware
 
