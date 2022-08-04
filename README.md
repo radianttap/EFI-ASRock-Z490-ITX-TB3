@@ -1,7 +1,7 @@
 # EFI-ASRock-Z490-ITX-TB3
 
-- OpenCore v0.7.8
-- Big Sur 11.6.3 / Monterey 12.2
+- OpenCore v0.8.3
+- Monterey 12.5
 - iMac20,1
 
 ## Hardware
@@ -54,11 +54,11 @@ Pretty much everything.
 - Watch unlock, Handoff, iMessage, iCloud, Keychain, Xcode etc.
 - System Integrity Protection (SIP) fully enabled.
 - Sleep / wake
-- Thunderbolt 3
 
 ### What’s not working
 
 - Sidecar
+- Thunderbolt 3 likely works but I have chosen to disable it. The .efi driver appeared in few kernel panics and since no TB3 device is used, it’s now off.
 
 ## Notes
 
