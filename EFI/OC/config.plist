@@ -374,6 +374,24 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>NVMeFix.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/NVMeFix</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
                     <string>x86_64</string>
                     <key>BundlePath</key>
                     <string>AGPM-RX-5500XT.kext</string>
@@ -396,7 +414,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.4 | Audio patches</string>
+                    <string>V1.7.5 | Audio patches</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -743,6 +761,8 @@
                     <true/>
                     <key>Flavour</key>
                     <string>OpenShell:UEFIShell:Shell</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>UEFI Shell</string>
                     <key>Path</key>
