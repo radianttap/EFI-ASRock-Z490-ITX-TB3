@@ -1,7 +1,7 @@
 # EFI-ASRock-Z490-ITX-TB3
 
-- OpenCore v0.8.3
-- Monterey 12.5
+- OpenCore v0.8.5
+- Monterey 12.6
 - iMac20,1
 
 ## Hardware
@@ -13,7 +13,8 @@ Only the relevant parts:
 * [NCASE M1](https://ncases.com/products/m1) V6.1 chassis (silver) with two front USB-A ports
 * Corsair [Vengeance LPX 32GB](https://www.corsair.com/ww/en/Categories/Products/Memory/VENGEANCE-LPX/p/CMK32GX4M2D3200C16) DDR4 DRAM 3200MHz
 * Sapphire [Nitro+ RX 5500 XT 8G SE](https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-5500-xt-se-8g-gddr6) graphics card
-* XPG [SX8200 Pro](https://www.xpg.com/us/feature/583/) NVMe SSDs in 1TB (for macOS) and 512GB (for Windows)
+* WD Blue [SN570](https://www.westerndigital.com/products/internal-drives/wd-blue-sn570-nvme-ssd#WDS100T3B0C) NVMe SSDs in 1TB (for macOS)
+* [XPG 8200 Pro](https://www.xpg.com/us/feature/583/) NVMe SSD 512GB (for Windows)
 
 ### WiFI / Bt
 
