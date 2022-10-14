@@ -69,9 +69,10 @@ Use at your own risk.
 - OpenCanopy (GUI boot menu) is up and running.
 - I don’t boot Windows 10 using OC, thus I can’t guarantee it will work. I have Win 10 installed on separate SSD and switch using Boot Menu.
 
-**Don’t ask me for help.** This stuff is finicky and so infuriatingly detailed that every little mis-step can be a proper headache. This is why [Dortania](https://dortania.github.io) advises to not reuse anyone’s EFI. At least not do it blindly without knowing where to look into. 
+**Don’t ask here for help.** \
+This stuff is finicky and so infuriatingly detailed that every little mis-step can be a proper headache. This is why [Dortania](https://dortania.github.io) advises to not reuse anyone’s EFI. At least not do it blindly without knowing where to look into. 
 
-Ask [on reddit](https://www.reddit.com/r/hackintosh/) and the [discord server](https://discord.gg/Wxam8aH).
+Ask [on reddit](https://www.reddit.com/r/hackintosh/) and the [discord server](https://discord.gg/Wxam8aH). But you need to have made an effort first of making your own EFI so you know how to act of whatever advice you get there.
 
 Good luck.
 
